@@ -1,0 +1,4 @@
+<resources>
+
+    <style name="Theme.MatatakiForAndroid" parent="Theme.MaterialComponents.DayNight.NoActionBar" />
+</resources>
