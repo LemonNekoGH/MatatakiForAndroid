@@ -62,12 +62,15 @@ dependencies {
     testImplementation("junit:junit:4.13.2")
     testImplementation(kotlin("test-junit"))
     // Jetpack Compose
-    implementation("androidx.compose.ui:ui:1.0.0-beta02")
-    implementation("androidx.compose.ui:ui-tooling:1.0.0-beta02")
-    implementation("androidx.compose.foundation:foundation:1.0.0-beta02")
-    implementation("androidx.compose.material:material:1.0.0-beta02")
-    implementation("androidx.compose.material:material-icons-core:1.0.0-beta02")
+    implementation("androidx.compose.ui:ui:1.0.0-beta05")
+    implementation("androidx.compose.ui:ui-tooling:1.0.0-beta05")
+    implementation("androidx.compose.foundation:foundation:1.0.0-beta05")
+    implementation("androidx.compose.material:material:1.0.0-beta05")
+    implementation("androidx.compose.material:material-icons-core:1.0.0-beta05")
     implementation("androidx.compose.material:material-icons-extended:1.0.0-beta01")
     implementation("androidx.activity:activity-compose:1.3.0-alpha04")
     implementation("androidx.lifecycle:lifecycle-viewmodel-compose:1.0.0-alpha02")
+    // Jetpack Compose Utils
+    implementation("com.google.accompanist:accompanist-swiperefresh:0.8.1")
+    implementation("com.google.accompanist:accompanist-pager:0.8.1")
 }

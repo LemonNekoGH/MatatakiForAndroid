@@ -10,7 +10,6 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.painterResource
-import androidx.compose.ui.unit.dp
 import moe.lemonneko.mttk.R
 import moe.lemonneko.mttk.data.ViewModel
 import moe.lemonneko.mttk.theme.MatatakiTheme
@@ -24,6 +23,10 @@ class SplashActivity : BaseActivity() {
                 SplashView()
             }
         }
+    }
+
+    override fun onResume() {
+        super.onResume()
         handler.postDelayed({
             this@SplashActivity.logger.info("Activity state: $state")
             // Should not start Activity after user go to other application.
@@ -53,7 +56,6 @@ fun SplashView() {
         ) {
             CircularProgressIndicator(
                 modifier = Modifier
-                    .size(48.dp)
                     .align(Alignment.Center)
             )
         }

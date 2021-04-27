@@ -11,6 +11,7 @@ import androidx.compose.material.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import com.fasterxml.jackson.databind.ObjectMapper
@@ -40,17 +41,21 @@ fun ArticleItem(
                 ) {
                     Text(
                         text = title ?: ViewModel.locale.titleOfArticleLoading,
-                        style = MaterialTheme.typography.subtitle1
+                        style = MaterialTheme.typography.h6,
+                        modifier = Modifier.padding(bottom = 4.dp)
                     )
                     Text(
                         text = shortContent ?: ViewModel.locale.briefOfArticleLoading,
                         style = MaterialTheme.typography.body2,
-                        color = Color.Gray
+                        color = Color.Gray,
+                        maxLines = 3,
+                        overflow = TextOverflow.Ellipsis,
+                        modifier = Modifier.padding(bottom = 4.dp)
                     )
                     Text(
                         text = article.nickname ?: article.author
                         ?: ViewModel.locale.authorOfArticleLoading,
-                        style = MaterialTheme.typography.subtitle2
+                        style = MaterialTheme.typography.body2
                     )
                 }
             }
