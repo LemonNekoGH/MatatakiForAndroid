@@ -73,4 +73,5 @@ dependencies {
     // Jetpack Compose Utils
     implementation("com.google.accompanist:accompanist-swiperefresh:0.8.1")
     implementation("com.google.accompanist:accompanist-pager:0.8.1")
+    implementation("com.google.accompanist:accompanist-pager-indicators:0.8.1")
 }

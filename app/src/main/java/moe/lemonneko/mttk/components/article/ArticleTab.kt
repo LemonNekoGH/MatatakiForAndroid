@@ -1,29 +1,29 @@
-package moe.lemonneko.mttk.components
+package moe.lemonneko.mttk.components.article
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.width
-import androidx.compose.material.*
-import androidx.compose.material.TabRowDefaults.tabIndicatorOffset
+import androidx.compose.material.Divider
+import androidx.compose.material.Tab
+import androidx.compose.material.TabRow
+import androidx.compose.material.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
-import moe.lemonneko.mttk.data.ArticleTabViewModel
+import com.google.accompanist.pager.ExperimentalPagerApi
+import com.google.accompanist.pager.PagerState
+import com.google.accompanist.pager.pagerTabIndicatorOffset
 import moe.lemonneko.mttk.data.ViewModel
 
+@ExperimentalPagerApi
 @Composable
 private fun ArticleTabIndicator(
-    tabPositions: List<TabPosition>,
-    viewModel: ArticleTabViewModel
+    modifier: Modifier
 ) {
-    Box(
-        Modifier
-            .tabIndicatorOffset(tabPositions[viewModel.selected])
-    ) {
+    Box(modifier) {
         Box(
             Modifier
                 .align(Alignment.Center)
@@ -34,9 +34,10 @@ private fun ArticleTabIndicator(
     }
 }
 
+@ExperimentalPagerApi
 @Composable
 fun ArticleTab(
-    viewModel: ArticleTabViewModel
+    pagerState: PagerState
 ) {
     val tabNames = arrayOf(
         ViewModel.locale.hottest,
@@ -44,35 +45,27 @@ fun ArticleTab(
     )
     Column {
         TabRow(
-            selectedTabIndex = viewModel.selected,
+            selectedTabIndex = pagerState.currentPage,
             modifier = Modifier.height(48.dp),
             indicator = { tabPositions ->
                 ArticleTabIndicator(
-                    tabPositions = tabPositions,
-                    viewModel = viewModel
+                    modifier = Modifier.pagerTabIndicatorOffset(pagerState, tabPositions)
                 )
             }
         ) {
-            for (index in tabNames.indices) {
+            tabNames.forEachIndexed { index, name ->
                 Tab(
-                    selected = viewModel.selected == index,
-                    onClick = {
-                        viewModel.selected = index
-                    },
+                    selected = pagerState.currentPage == index,
+                    onClick = {},
                     modifier = Modifier
                         .background(ViewModel.theme.surface),
-                    selectedContentColor = ViewModel.theme.primary
-                ) {
-                    Text(text = tabNames[index])
-                }
+                    selectedContentColor = ViewModel.theme.primary,
+                    text = {
+                        Text(text = name)
+                    }
+                )
             }
         }
         Divider()
     }
-}
-
-@Composable
-@Preview(showSystemUi = true)
-fun ArticleTabPreview() {
-    ArticleTab(viewModel = ArticleTabViewModel())
 }

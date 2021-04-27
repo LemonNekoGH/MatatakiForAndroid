@@ -1,28 +1,25 @@
 package moe.lemonneko.mttk.data
 
+import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
+import androidx.compose.runtime.setValue
+import com.google.accompanist.pager.ExperimentalPagerApi
+import com.google.accompanist.pager.PagerState
 import moe.lemonneko.mttk.theme.matatakiLight
 
 object ViewModel {
-    private val _locale = mutableStateOf(Locales.cn)
-    private val _theme = mutableStateOf(matatakiLight())
-
-    var locale
-        get() = _locale.component1()
-        set(value) {
-            _locale.component2()(value)
-        }
-
-    var theme
-        get() = _theme.component1()
-        set(value) {
-            _theme.component2()(value)
-        }
+    var locale by mutableStateOf(Locales.cn)
+    var theme by mutableStateOf(matatakiLight())
 
     object MainActivity {
         object BottomBar : BottomBarViewModel()
+
+        @ExperimentalPagerApi
         object ArticleView {
-            object Tab : ArticleTabViewModel()
+            @ExperimentalPagerApi
+            val pagerState = PagerState(2)
+            var currentPage by mutableStateOf(pagerState.currentPage)
+
             object HottestArticle : ArticleListViewModel(false)
             object LatestArticle : ArticleListViewModel(true)
         }

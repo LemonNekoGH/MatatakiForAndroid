@@ -1,4 +1,4 @@
-package moe.lemonneko.mttk.components
+package moe.lemonneko.mttk.components.article
 
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Box

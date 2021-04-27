@@ -10,13 +10,16 @@ import androidx.compose.material.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
-import moe.lemonneko.mttk.components.ArticleList
-import moe.lemonneko.mttk.components.ArticleTab
+import com.google.accompanist.pager.ExperimentalPagerApi
+import com.google.accompanist.pager.HorizontalPager
 import moe.lemonneko.mttk.components.BottomBar
+import moe.lemonneko.mttk.components.article.ArticleList
+import moe.lemonneko.mttk.components.article.ArticleTab
 import moe.lemonneko.mttk.data.ViewModel
 import moe.lemonneko.mttk.theme.MatatakiTheme
 
 class MainActivity : BaseActivity() {
+    @ExperimentalPagerApi
     @ExperimentalMaterialApi
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -29,6 +32,7 @@ class MainActivity : BaseActivity() {
     }
 }
 
+@ExperimentalPagerApi
 @ExperimentalMaterialApi
 @Composable
 fun MainView() {
@@ -44,6 +48,7 @@ fun MainView() {
     }
 }
 
+@ExperimentalPagerApi
 @ExperimentalMaterialApi
 @Preview(
     showSystemUi = true
@@ -53,6 +58,7 @@ fun MainViewPreview() {
     MainView()
 }
 
+@ExperimentalPagerApi
 @ExperimentalMaterialApi
 @Composable
 fun ArticleView() {
@@ -60,11 +66,11 @@ fun ArticleView() {
         Column(
             modifier = Modifier.fillMaxSize()
         ) {
-            ArticleTab(viewModel = ViewModel.MainActivity.ArticleView.Tab)
-            if (ViewModel.MainActivity.ArticleView.Tab.selected == 0) {
-                ArticleList(ViewModel.MainActivity.ArticleView.HottestArticle)
-            } else {
-                ArticleList(ViewModel.MainActivity.ArticleView.LatestArticle)
+            ArticleTab(
+                pagerState = pagerState
+            )
+            HorizontalPager(state = pagerState) { page ->
+                ArticleList(page)
             }
         }
     }
