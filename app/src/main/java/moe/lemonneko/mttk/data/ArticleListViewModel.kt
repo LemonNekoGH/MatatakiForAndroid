@@ -49,7 +49,7 @@ open class ArticleListViewModel(private val isLatest: Boolean) {
                     errorText = """
                         ${ViewModel.locale.getArticleFailed}
                         $message
-                        ${ViewModel.locale.tryAgainLater}
+                        ${ViewModel.locale.clickToRetry}
                     """.trimIndent()
                     logger.info("Get article failed.")
                     it.printStackTrace()

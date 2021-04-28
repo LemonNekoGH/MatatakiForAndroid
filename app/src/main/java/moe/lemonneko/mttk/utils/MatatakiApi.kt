@@ -9,6 +9,7 @@ import org.json.JSONObject
 import java.io.IOException
 import java.net.InetSocketAddress
 import java.net.Proxy
+import java.net.UnknownHostException
 
 object MatatakiApi : EventListener() {
     private val httpClient = OkHttpClient.Builder()
@@ -46,7 +47,15 @@ object MatatakiApi : EventListener() {
             .get()
             .url(url)
             .build()
-        val response = httpClient.newCall(request).execute()
+        val response = try {
+            httpClient.newCall(request).execute()
+        } catch (e: Exception) {
+            val message = when (e) {
+                is UnknownHostException -> ViewModel.locale.unknownHostError
+                else -> ViewModel.locale.unknownError
+            }
+            throw MatatakiApiException(-1, message)
+        }
         return if (response.code == 200) {
             if (response.body != null) {
                 response.body!!.charStream().readText()
@@ -72,7 +81,7 @@ object MatatakiApi : EventListener() {
         ViewModel.locale.apply {
             message = when (statusCode) {
                 204 -> emptyResponse
-                502 -> internalServerError
+                500 -> internalServerError
                 else -> unknownError
             }
         }
@@ -91,7 +100,11 @@ object MatatakiApi : EventListener() {
         }
     }
 
-    // OKHttp Event Listener
+    override fun callFailed(call: Call, ioe: IOException) {
+        logger.info("call failed. ${call.request().url}")
+        ioe.printStackTrace()
+    }
+
     override fun connectStart(call: Call, inetSocketAddress: InetSocketAddress, proxy: Proxy) {
         logger.info("start connecting ${call.request().url}")
     }
@@ -102,7 +115,7 @@ object MatatakiApi : EventListener() {
         proxy: Proxy,
         protocol: Protocol?
     ) {
-        logger.info("connect end: ${call.request().url}")
+        logger.info("connect successful: ${call.request().url}")
     }
 
     override fun requestFailed(call: Call, ioe: IOException) {

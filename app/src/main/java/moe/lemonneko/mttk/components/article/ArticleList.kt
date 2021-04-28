@@ -1,5 +1,6 @@
 package moe.lemonneko.mttk.components.article
 
+import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.material.Text
@@ -41,6 +42,9 @@ fun ArticleList(
             Box(
                 modifier = Modifier
                     .fillMaxSize()
+                    .clickable {
+                        viewModel.refreshArticles()
+                    }
             ) {
                 Row(
                     modifier = Modifier

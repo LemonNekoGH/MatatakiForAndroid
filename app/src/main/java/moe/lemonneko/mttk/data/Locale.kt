@@ -14,7 +14,9 @@ class Locale(
     val emptyResponse: String = "服务器返回了空内容",
     val internalServerError: String = "服务器出了点岔子",
     val unknownError: String = "不知道是什么错误",
-    val jsonFormatError: String = "JSON格式化出错"
+    val jsonFormatError: String = "JSON格式化出错",
+    val unknownHostError: String = "找不到服务器",
+    val clickToRetry: String = "点击屏幕重试"
 )
 
 object Locales {
