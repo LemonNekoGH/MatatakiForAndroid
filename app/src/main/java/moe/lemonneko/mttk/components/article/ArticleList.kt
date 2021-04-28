@@ -2,7 +2,6 @@ package moe.lemonneko.mttk.components.article
 
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.lazy.LazyColumn
-import androidx.compose.material.ExperimentalMaterialApi
 import androidx.compose.material.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
@@ -19,7 +18,6 @@ import moe.lemonneko.mttk.data.ViewModel
 import moe.lemonneko.mttk.utils.*
 
 @ExperimentalPagerApi
-@ExperimentalMaterialApi
 @Composable
 fun ArticleList(
     page: Int

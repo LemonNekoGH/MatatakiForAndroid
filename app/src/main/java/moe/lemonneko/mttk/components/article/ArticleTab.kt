@@ -56,7 +56,9 @@ fun ArticleTab(
             tabNames.forEachIndexed { index, name ->
                 Tab(
                     selected = pagerState.currentPage == index,
-                    onClick = {},
+                    onClick = {
+                        ViewModel.MainActivity.ArticleView.targetPage = index
+                    },
                     modifier = Modifier
                         .background(ViewModel.theme.surface),
                     selectedContentColor = ViewModel.theme.primary,

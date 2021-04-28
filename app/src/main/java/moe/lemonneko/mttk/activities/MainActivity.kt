@@ -17,6 +17,7 @@ import moe.lemonneko.mttk.components.article.ArticleList
 import moe.lemonneko.mttk.components.article.ArticleTab
 import moe.lemonneko.mttk.data.ViewModel
 import moe.lemonneko.mttk.theme.MatatakiTheme
+import moe.lemonneko.mttk.utils.DoAnimate
 
 class MainActivity : BaseActivity() {
     @ExperimentalPagerApi
@@ -33,7 +34,6 @@ class MainActivity : BaseActivity() {
 }
 
 @ExperimentalPagerApi
-@ExperimentalMaterialApi
 @Composable
 fun MainView() {
     Scaffold(
@@ -59,7 +59,6 @@ fun MainViewPreview() {
 }
 
 @ExperimentalPagerApi
-@ExperimentalMaterialApi
 @Composable
 fun ArticleView() {
     ViewModel.MainActivity.ArticleView.apply {
@@ -71,6 +70,12 @@ fun ArticleView() {
             )
             HorizontalPager(state = pagerState) { page ->
                 ArticleList(page)
+            }
+            if (targetPage != -1) {
+                DoAnimate {
+                    pagerState.animateScrollToPage(targetPage)
+                    targetPage = -1
+                }
             }
         }
     }

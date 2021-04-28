@@ -18,7 +18,7 @@ object ViewModel {
         object ArticleView {
             @ExperimentalPagerApi
             val pagerState = PagerState(2)
-            var currentPage by mutableStateOf(pagerState.currentPage)
+            var targetPage by mutableStateOf(pagerState.currentPage)
 
             object HottestArticle : ArticleListViewModel(false)
             object LatestArticle : ArticleListViewModel(true)
