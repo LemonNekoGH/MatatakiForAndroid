@@ -1,6 +1,7 @@
 package moe.lemonneko.mttk.data
 
 import com.fasterxml.jackson.annotation.JsonProperty
+import moe.lemonneko.mttk.utils.logger
 
 
 class ArticleBean {
@@ -12,7 +13,12 @@ class ArticleBean {
 
     @JsonProperty("create_time")
     var createTime: String? = null
-    var cover: String? = null
+    var cover = "/material/default_cover.png"
+        set(value) {
+            if (value.isNotEmpty()) {
+                field = value
+            }
+        }
 
     @JsonProperty("require_holdtokens")
     var requireHoldTokens: String? = null

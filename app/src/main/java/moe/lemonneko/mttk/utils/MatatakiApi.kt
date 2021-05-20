@@ -96,6 +96,7 @@ object MatatakiApi : EventListener() {
             return mapper.readValue(data, Array<ArticleBean>::class.java)
         } catch (e: Exception) {
             message = ViewModel.locale.jsonFormatError
+            logger.debug(data)
             throw MatatakiApiException(statusCode, message)
         }
     }

@@ -1,0 +1,66 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="moe.lemonneko.mttk"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="23"
+8-->/Users/lemonneko/Projects/MatatakiForAndroid/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->/Users/lemonneko/Projects/MatatakiForAndroid/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/Users/lemonneko/Projects/MatatakiForAndroid/app/src/main/AndroidManifest.xml:5:5-67
+11-->/Users/lemonneko/Projects/MatatakiForAndroid/app/src/main/AndroidManifest.xml:5:22-64
+12
+13    <application
+13-->/Users/lemonneko/Projects/MatatakiForAndroid/app/src/main/AndroidManifest.xml:7:5-25:19
+14        android:name="moe.lemonneko.mttk.Matataki"
+14-->/Users/lemonneko/Projects/MatatakiForAndroid/app/src/main/AndroidManifest.xml:8:9-33
+15        android:allowBackup="true"
+15-->/Users/lemonneko/Projects/MatatakiForAndroid/app/src/main/AndroidManifest.xml:9:9-35
+16        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+16-->[androidx.core:core:1.5.0-beta01] /Users/lemonneko/.gradle/caches/transforms-3/e47c50a49048ba3725ab44c1a916e6b8/transformed/core-1.5.0-beta01/AndroidManifest.xml:24:18-86
+17        android:debuggable="true"
+18        android:extractNativeLibs="false"
+19        android:icon="@mipmap/ic_launcher"
+19-->/Users/lemonneko/Projects/MatatakiForAndroid/app/src/main/AndroidManifest.xml:10:9-43
+20        android:label="@string/app_name"
+20-->/Users/lemonneko/Projects/MatatakiForAndroid/app/src/main/AndroidManifest.xml:11:9-41
+21        android:roundIcon="@mipmap/ic_launcher_round"
+21-->/Users/lemonneko/Projects/MatatakiForAndroid/app/src/main/AndroidManifest.xml:12:9-54
+22        android:supportsRtl="true"
+22-->/Users/lemonneko/Projects/MatatakiForAndroid/app/src/main/AndroidManifest.xml:13:9-35
+23        android:testOnly="true"
+24        android:theme="@style/Theme.MatatakiForAndroid" >
+24-->/Users/lemonneko/Projects/MatatakiForAndroid/app/src/main/AndroidManifest.xml:14:9-56
+25        <activity
+25-->/Users/lemonneko/Projects/MatatakiForAndroid/app/src/main/AndroidManifest.xml:16:9-23:20
+26            android:name="moe.lemonneko.mttk.activities.SplashActivity"
+26-->/Users/lemonneko/Projects/MatatakiForAndroid/app/src/main/AndroidManifest.xml:17:13-54
+27            android:exported="true" >
+27-->/Users/lemonneko/Projects/MatatakiForAndroid/app/src/main/AndroidManifest.xml:18:13-36
+28            <intent-filter>
+28-->/Users/lemonneko/Projects/MatatakiForAndroid/app/src/main/AndroidManifest.xml:19:13-22:29
+29                <action android:name="android.intent.action.MAIN" />
+29-->/Users/lemonneko/Projects/MatatakiForAndroid/app/src/main/AndroidManifest.xml:20:17-69
+29-->/Users/lemonneko/Projects/MatatakiForAndroid/app/src/main/AndroidManifest.xml:20:25-66
+30
+31                <category android:name="android.intent.category.LAUNCHER" />
+31-->/Users/lemonneko/Projects/MatatakiForAndroid/app/src/main/AndroidManifest.xml:21:17-77
+31-->/Users/lemonneko/Projects/MatatakiForAndroid/app/src/main/AndroidManifest.xml:21:27-74
+32            </intent-filter>
+33        </activity>
+34        <activity android:name="moe.lemonneko.mttk.activities.MainActivity" />
+34-->/Users/lemonneko/Projects/MatatakiForAndroid/app/src/main/AndroidManifest.xml:24:9-61
+34-->/Users/lemonneko/Projects/MatatakiForAndroid/app/src/main/AndroidManifest.xml:24:19-58
+35        <activity
+35-->[androidx.compose.ui:ui-tooling:1.0.0-beta05] /Users/lemonneko/.gradle/caches/transforms-3/d6aded33bd6f9e582528d35c1336d8df/transformed/jetified-ui-tooling-1.0.0-beta05/AndroidManifest.xml:25:9-27:39
+36            android:name="androidx.compose.ui.tooling.preview.PreviewActivity"
+36-->[androidx.compose.ui:ui-tooling:1.0.0-beta05] /Users/lemonneko/.gradle/caches/transforms-3/d6aded33bd6f9e582528d35c1336d8df/transformed/jetified-ui-tooling-1.0.0-beta05/AndroidManifest.xml:26:13-79
+37            android:exported="true" />
+37-->[androidx.compose.ui:ui-tooling:1.0.0-beta05] /Users/lemonneko/.gradle/caches/transforms-3/d6aded33bd6f9e582528d35c1336d8df/transformed/jetified-ui-tooling-1.0.0-beta05/AndroidManifest.xml:27:13-36
+38    </application>
+39
+40</manifest>

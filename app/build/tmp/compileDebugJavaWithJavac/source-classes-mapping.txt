@@ -1,0 +1,2 @@
+moe/lemonneko/mttk/BuildConfig.java
+ moe.lemonneko.mttk.BuildConfig

@@ -1,23 +1,29 @@
 package moe.lemonneko.mttk.components.article
 
+import androidx.compose.animation.ExperimentalAnimationApi
+import androidx.compose.foundation.Image
 import androidx.compose.foundation.clickable
-import androidx.compose.foundation.layout.Box
-import androidx.compose.foundation.layout.Column
-import androidx.compose.foundation.layout.fillMaxWidth
-import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.layout.*
+import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.material.Card
 import androidx.compose.material.MaterialTheme
 import androidx.compose.material.Text
 import androidx.compose.runtime.Composable
+import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.graphics.Color
-import androidx.compose.ui.text.style.TextOverflow
+import androidx.compose.ui.draw.clip
+import androidx.compose.ui.layout.ContentScale
+import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import com.fasterxml.jackson.databind.ObjectMapper
+import com.google.accompanist.glide.rememberGlidePainter
 import moe.lemonneko.mttk.data.ArticleBean
 import moe.lemonneko.mttk.data.ViewModel
 
+private const val CDN = "https://ssimg.frontenduse.top/"
+
+@ExperimentalAnimationApi
 @Composable
 fun ArticleItem(
     article: ArticleBean,
@@ -33,29 +39,28 @@ fun ArticleItem(
                 .fillMaxWidth()
         ) {
             Box(
-                modifier = Modifier
-                    .clickable { }
+                modifier = Modifier.clickable {
+
+                }
             ) {
-                Column(
-                    modifier = Modifier.padding(8.dp)
-                ) {
+                Column {
+                    ArticleItemHeader(
+                        avatar = avatar,
+                        author = if (nickname.isNullOrEmpty()) {author} else {nickname},
+                        modifier = Modifier.padding(start = 8.dp)
+                    )
+                    Image(
+                        painter = rememberGlidePainter(request = CDN + cover),
+                        contentDescription = "cover",
+                        modifier = Modifier
+                            .fillMaxWidth()
+                            .height(160.dp),
+                        contentScale = ContentScale.FillWidth
+                    )
                     Text(
                         text = title ?: ViewModel.locale.titleOfArticleLoading,
-                        style = MaterialTheme.typography.h6,
-                        modifier = Modifier.padding(bottom = 4.dp)
-                    )
-                    Text(
-                        text = shortContent ?: ViewModel.locale.briefOfArticleLoading,
-                        style = MaterialTheme.typography.body2,
-                        color = Color.Gray,
-                        maxLines = 3,
-                        overflow = TextOverflow.Ellipsis,
-                        modifier = Modifier.padding(bottom = 4.dp)
-                    )
-                    Text(
-                        text = article.nickname ?: article.author
-                        ?: ViewModel.locale.authorOfArticleLoading,
-                        style = MaterialTheme.typography.body2
+                        style = MaterialTheme.typography.subtitle1,
+                        modifier = Modifier.padding(bottom = 8.dp, start = 8.dp, top = 8.dp)
                     )
                 }
             }
@@ -63,6 +68,46 @@ fun ArticleItem(
     }
 }
 
+@Composable
+fun ArticleItemHeader(
+    modifier: Modifier = Modifier,
+    avatar: String?,
+    author: String?
+) {
+    Row(
+        verticalAlignment = Alignment.CenterVertically,
+        modifier = modifier.height(48.dp)
+    ) {
+        val useAvatar = if (avatar.isNullOrEmpty()) {
+            "https://cdntest.frontenduse.top/test/img/default_avatar.9873fd7.png"
+        } else {
+            CDN + avatar
+        }
+        Image(
+            painter = rememberGlidePainter(request = useAvatar),
+            contentDescription = "avatar",
+            modifier = Modifier
+                .size(36.dp)
+                .clip(CircleShape),
+        )
+        Text(
+            text = author ?: "",
+            modifier = Modifier.padding(start = 8.dp),
+            style = MaterialTheme.typography.subtitle1
+        )
+    }
+}
+
+@Preview(showBackground = true)
+@Composable
+fun ArticleItemHeaderPreview() {
+    ArticleItemHeader(
+        avatar = "https://ssimg.frontenduse.top/avatar/2021/01/26/0f71cb63a098421270b054470d03cb34.jpg",
+        author = "LemonNeko"
+    )
+}
+
+@ExperimentalAnimationApi
 @Composable
 @Preview(showBackground = true)
 fun ArticleItemPreview() {

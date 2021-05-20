@@ -1,0 +1,312 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/lemonneko/Projects/MatatakiForAndroid/app/src/main/AndroidManifest.xml:2:1-27:12
+INJECTED from /Users/lemonneko/Projects/MatatakiForAndroid/app/src/main/AndroidManifest.xml:2:1-27:12
+INJECTED from /Users/lemonneko/Projects/MatatakiForAndroid/app/src/main/AndroidManifest.xml:2:1-27:12
+INJECTED from /Users/lemonneko/Projects/MatatakiForAndroid/app/src/main/AndroidManifest.xml:2:1-27:12
+MERGED from [com.google.accompanist:accompanist-glide:0.8.1] /Users/lemonneko/.gradle/caches/transforms-3/3d9e80a60b69f42d79ff9bd4b5878f9c/transformed/jetified-accompanist-glide-0.8.1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.accompanist:accompanist-swiperefresh:0.8.1] /Users/lemonneko/.gradle/caches/transforms-3/2265ae367859284e49297f5e3e4660be/transformed/jetified-accompanist-swiperefresh-0.8.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.ui:ui-tooling:1.0.0-beta05] /Users/lemonneko/.gradle/caches/transforms-3/d6aded33bd6f9e582528d35c1336d8df/transformed/jetified-ui-tooling-1.0.0-beta05/AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.activity:activity-compose:1.3.0-alpha04] /Users/lemonneko/.gradle/caches/transforms-3/f436236b8bdec6a9abba2298b0b1b2b2/transformed/jetified-activity-compose-1.3.0-alpha04/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity-ktx:1.3.0-alpha04] /Users/lemonneko/.gradle/caches/transforms-3/d3bee7e02f50a4d19d1573e48f0a6660/transformed/jetified-activity-ktx-1.3.0-alpha04/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core-ktx:1.3.2] /Users/lemonneko/.gradle/caches/transforms-3/d1c8e129d91736996c18280ee169b3bc/transformed/jetified-core-ktx-1.3.2/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.accompanist:accompanist-pager-indicators:0.8.1] /Users/lemonneko/.gradle/caches/transforms-3/ebe35fe65f7665dd4078d4bb40654afd/transformed/jetified-accompanist-pager-indicators-0.8.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.material:material:1.0.0-beta05] /Users/lemonneko/.gradle/caches/transforms-3/cd38f4ace3906bcbe25cb661095cbfdc/transformed/jetified-material-1.0.0-beta05/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.accompanist:accompanist-pager:0.8.1] /Users/lemonneko/.gradle/caches/transforms-3/71898aa89ec495e3f09996f55ffc077c/transformed/jetified-accompanist-pager-0.8.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.material:material-ripple:1.0.0-beta05] /Users/lemonneko/.gradle/caches/transforms-3/8fa9f4ecd097f9ef61719ef67663e433/transformed/jetified-material-ripple-1.0.0-beta05/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.accompanist:accompanist-imageloading-core:0.8.1] /Users/lemonneko/.gradle/caches/transforms-3/d8424bf6363317c2ee78ad673026ef43/transformed/jetified-accompanist-imageloading-core-0.8.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.foundation:foundation:1.0.0-beta05] /Users/lemonneko/.gradle/caches/transforms-3/24001c7a4d704b78d19d7098f06b2b91/transformed/jetified-foundation-1.0.0-beta05/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.compose.material:material-icons-extended:1.0.0-beta01] /Users/lemonneko/.gradle/caches/transforms-3/c68aaffc767e22f0bbddc1924e2461ab/transformed/jetified-material-icons-extended-1.0.0-beta01/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.compose.material:material-icons-core:1.0.0-beta05] /Users/lemonneko/.gradle/caches/transforms-3/d407303cdb17d77601071193721fbfa5/transformed/jetified-material-icons-core-1.0.0-beta05/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-compose:1.0.0-alpha02] /Users/lemonneko/.gradle/caches/transforms-3/1418b5b708b6af20b2602642473bbbf6/transformed/jetified-lifecycle-viewmodel-compose-1.0.0-alpha02/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.compose.ui:ui-tooling-data:1.0.0-beta05] /Users/lemonneko/.gradle/caches/transforms-3/dd59051afa943070fe6d926bfba68e3c/transformed/jetified-ui-tooling-data-1.0.0-beta05/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.compose.animation:animation:1.0.0-beta05] /Users/lemonneko/.gradle/caches/transforms-3/3572b53d4d048a05db85606c26574798/transformed/jetified-animation-1.0.0-beta05/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.compose.foundation:foundation-layout:1.0.0-beta05] /Users/lemonneko/.gradle/caches/transforms-3/d69d12303943b77f4f640c7cb96d4a1e/transformed/jetified-foundation-layout-1.0.0-beta05/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.compose.ui:ui:1.0.0-beta05] /Users/lemonneko/.gradle/caches/transforms-3/eac1fde5e80e4ea5d5bb3b96e05f36d3/transformed/jetified-ui-1.0.0-beta05/AndroidManifest.xml:17:1-24:12
+MERGED from [com.gyf.immersionbar:immersionbar-ktx:3.0.0] /Users/lemonneko/.gradle/caches/transforms-3/ff79929c7b09714a7828dfb054bc74e8/transformed/jetified-immersionbar-ktx-3.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.compose.animation:animation-core:1.0.0-beta05] /Users/lemonneko/.gradle/caches/transforms-3/dcac8af166508cbb8f9cc59a5d9b643f/transformed/jetified-animation-core-1.0.0-beta05/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.compose.ui:ui-text:1.0.0-beta05] /Users/lemonneko/.gradle/caches/transforms-3/7b74b824e37faf8494f7eaacf05ae89a/transformed/jetified-ui-text-1.0.0-beta05/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.compose.runtime:runtime-saveable:1.0.0-beta05] /Users/lemonneko/.gradle/caches/transforms-3/75381a2be2c78d41c3b86dd142456bff/transformed/jetified-runtime-saveable-1.0.0-beta05/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.compose.ui:ui-graphics:1.0.0-beta05] /Users/lemonneko/.gradle/caches/transforms-3/7779b8de660c8e159de9f5c0ef04fbd2/transformed/jetified-ui-graphics-1.0.0-beta05/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.compose.ui:ui-unit:1.0.0-beta05] /Users/lemonneko/.gradle/caches/transforms-3/39c9ac29dffe4cb7b2a5221910fade87/transformed/jetified-ui-unit-1.0.0-beta05/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.compose.ui:ui-geometry:1.0.0-beta05] /Users/lemonneko/.gradle/caches/transforms-3/640290354e1ea88385d81701a7c20b23/transformed/jetified-ui-geometry-1.0.0-beta05/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.compose.runtime:runtime:1.0.0-beta05] /Users/lemonneko/.gradle/caches/transforms-3/c92f88ebb22677596ab3d655a46082ac/transformed/jetified-runtime-1.0.0-beta05/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.compose.ui:ui-util:1.0.0-beta05] /Users/lemonneko/.gradle/caches/transforms-3/dc97744136ee5b2c795137fc9c4eaa05/transformed/jetified-ui-util-1.0.0-beta05/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.3.0] /Users/lemonneko/.gradle/caches/transforms-3/404d05863856cc9e38ec85dbfce59152/transformed/jetified-lifecycle-viewmodel-ktx-2.3.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.3.0] /Users/lemonneko/.gradle/caches/transforms-3/53d36dbd1452d92053e99489361f6277/transformed/jetified-lifecycle-runtime-ktx-2.3.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate-ktx:1.1.0] /Users/lemonneko/.gradle/caches/transforms-3/83f63fa3da953c76b7eca217bada5b86/transformed/jetified-savedstate-ktx-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.material:material:1.3.0] /Users/lemonneko/.gradle/caches/transforms-3/c6953b175c74d4b42b1d8de8f6553a4a/transformed/material-1.3.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] /Users/lemonneko/.gradle/caches/transforms-3/fcecb3db12bc6f4b38a8f7ffb7d3e834/transformed/constraintlayout-2.0.1/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.appcompat:appcompat:1.2.0] /Users/lemonneko/.gradle/caches/transforms-3/a3ee1937757cac39fce77498fc54b949/transformed/appcompat-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.gyf.immersionbar:immersionbar:3.0.0] /Users/lemonneko/.gradle/caches/transforms-3/8a7c92717798d47934e960c99b897e3d/transformed/jetified-immersionbar-3.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/lemonneko/.gradle/caches/transforms-3/721ad291afc633376c619f195b6063cb/transformed/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/lemonneko/.gradle/caches/transforms-3/4897ef677a51cefb94c086bd977e60d3/transformed/jetified-viewpager2-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.github.bumptech.glide:glide:4.12.0] /Users/lemonneko/.gradle/caches/transforms-3/8c05827fe3b2f7b4be6da5cd436e8eeb/transformed/jetified-glide-4.12.0/AndroidManifest.xml:2:1-12:12
+MERGED from [androidx.fragment:fragment:1.1.0] /Users/lemonneko/.gradle/caches/transforms-3/1d8699fda837735fc90be439bfb22e41/transformed/fragment-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] /Users/lemonneko/.gradle/caches/transforms-3/51db42ecb5496f0ac1d7c2c050362edd/transformed/jetified-appcompat-resources-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/lemonneko/.gradle/caches/transforms-3/2f782466294e80cc63c9f954f85cae52/transformed/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/lemonneko/.gradle/caches/transforms-3/f53d61034bd942107ae6b208373c08f4/transformed/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/lemonneko/.gradle/caches/transforms-3/079b3b2b8a522056dcc512499141ea09/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.transition:transition:1.2.0] /Users/lemonneko/.gradle/caches/transforms-3/fa6a07ec6d44f73877b7db3ad05e8421/transformed/transition-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/lemonneko/.gradle/caches/transforms-3/caf36994155514c27362edc3964166ae/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/lemonneko/.gradle/caches/transforms-3/201b3992e9655da44c15d97976b5637e/transformed/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/lemonneko/.gradle/caches/transforms-3/bf192d3da74aa4ef2ed59f636c6e9453/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.autofill:autofill:1.0.0] /Users/lemonneko/.gradle/caches/transforms-3/1f7cd799ab1d647d21ace886ad522547/transformed/jetified-autofill-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/lemonneko/.gradle/caches/transforms-3/e699c36b766fe9b7b6ed477141e37bf3/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/lemonneko/.gradle/caches/transforms-3/56153fc1864f89bc1f894c8d8a3378bb/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/lemonneko/.gradle/caches/transforms-3/fe09c73baf010cd1e1b774a070254088/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/lemonneko/.gradle/caches/transforms-3/b123edb33916021106dbbf550351264c/transformed/recyclerview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview:1.0.0] /Users/lemonneko/.gradle/caches/transforms-3/26d067f76b4f19523436515fc7e710e8/transformed/customview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.3.0-alpha04] /Users/lemonneko/.gradle/caches/transforms-3/cd233db4584cf584f9d9551b3eec9b16/transformed/jetified-activity-1.3.0-alpha04/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core:1.5.0-beta01] /Users/lemonneko/.gradle/caches/transforms-3/e47c50a49048ba3725ab44c1a916e6b8/transformed/core-1.5.0-beta01/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.0] /Users/lemonneko/.gradle/caches/transforms-3/1f9202104a54ca993f8b98fff70144a6/transformed/lifecycle-runtime-2.3.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.0] /Users/lemonneko/.gradle/caches/transforms-3/e164a01b06f70854b0ee9d596d771f45/transformed/jetified-lifecycle-viewmodel-savedstate-2.3.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.1.0] /Users/lemonneko/.gradle/caches/transforms-3/b81549442fa26ff24250bb247f6e4410/transformed/jetified-savedstate-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.0] /Users/lemonneko/.gradle/caches/transforms-3/629fc5a1842adb693fb01205145f3324/transformed/lifecycle-viewmodel-2.3.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/lemonneko/.gradle/caches/transforms-3/e882a98d82f6212064720b7b61ec998c/transformed/versionedparcelable-1.1.0/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/lemonneko/.gradle/caches/transforms-3/d4790ae0dff2858f5d5155016cdd7101/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.0] /Users/lemonneko/.gradle/caches/transforms-3/07dcbacca352b9dc242dc1eb118a2947/transformed/lifecycle-livedata-core-2.3.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/lemonneko/.gradle/caches/transforms-3/e3e703cb95ca370043f8efabed669551/transformed/core-runtime-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] /Users/lemonneko/.gradle/caches/transforms-3/f4d93f3fb454be58da28d86fec52304b/transformed/jetified-gifdecoder-4.12.0/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.exifinterface:exifinterface:1.2.0] /Users/lemonneko/.gradle/caches/transforms-3/8c0e89179c4b1c678e30531efc4f8236/transformed/exifinterface-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/lemonneko/.gradle/caches/transforms-3/3115ee56a65c9ec7e60c98ab811dde3a/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/lemonneko/.gradle/caches/transforms-3/5c8b01cc04195a48999902da75e6bc45/transformed/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/lemonneko/.gradle/caches/transforms-3/8b13205f5de1f513ea9ffea0c82248ca/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /Users/lemonneko/.gradle/caches/transforms-3/56f11c1bf1537d915fffbc2a01f30953/transformed/print-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/lemonneko/.gradle/caches/transforms-3/a8d695cd534dda325e7c083598997ff3/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] /Users/lemonneko/.gradle/caches/transforms-3/db3dfd5cb4fab62bd4c46295aa3cc8bd/transformed/jetified-annotation-experimental-1.0.0/AndroidManifest.xml:17:1-24:12
+INJECTED from /Users/lemonneko/Projects/MatatakiForAndroid/app/src/main/AndroidManifest.xml:2:1-27:12
+INJECTED from /Users/lemonneko/Projects/MatatakiForAndroid/app/src/main/AndroidManifest.xml:2:1-27:12
+INJECTED from /Users/lemonneko/Projects/MatatakiForAndroid/app/src/main/AndroidManifest.xml:2:1-27:12
+	package
+		ADDED from /Users/lemonneko/Projects/MatatakiForAndroid/app/src/main/AndroidManifest.xml:3:5-33
+		INJECTED from /Users/lemonneko/Projects/MatatakiForAndroid/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/lemonneko/Projects/MatatakiForAndroid/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/lemonneko/Projects/MatatakiForAndroid/app/src/main/AndroidManifest.xml
+		ADDED from /Users/lemonneko/Projects/MatatakiForAndroid/app/src/main/AndroidManifest.xml:2:1-27:12
+		INJECTED from /Users/lemonneko/Projects/MatatakiForAndroid/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/lemonneko/Projects/MatatakiForAndroid/app/src/main/AndroidManifest.xml
+		ADDED from /Users/lemonneko/Projects/MatatakiForAndroid/app/src/main/AndroidManifest.xml:2:1-27:12
+		INJECTED from /Users/lemonneko/Projects/MatatakiForAndroid/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/lemonneko/Projects/MatatakiForAndroid/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /Users/lemonneko/Projects/MatatakiForAndroid/app/src/main/AndroidManifest.xml:5:5-67
+	android:name
+		ADDED from /Users/lemonneko/Projects/MatatakiForAndroid/app/src/main/AndroidManifest.xml:5:22-64
+application
+ADDED from /Users/lemonneko/Projects/MatatakiForAndroid/app/src/main/AndroidManifest.xml:7:5-25:19
+MERGED from [androidx.compose.ui:ui-tooling:1.0.0-beta05] /Users/lemonneko/.gradle/caches/transforms-3/d6aded33bd6f9e582528d35c1336d8df/transformed/jetified-ui-tooling-1.0.0-beta05/AndroidManifest.xml:24:5-28:19
+MERGED from [androidx.compose.ui:ui-tooling:1.0.0-beta05] /Users/lemonneko/.gradle/caches/transforms-3/d6aded33bd6f9e582528d35c1336d8df/transformed/jetified-ui-tooling-1.0.0-beta05/AndroidManifest.xml:24:5-28:19
+MERGED from [com.google.android.material:material:1.3.0] /Users/lemonneko/.gradle/caches/transforms-3/c6953b175c74d4b42b1d8de8f6553a4a/transformed/material-1.3.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.3.0] /Users/lemonneko/.gradle/caches/transforms-3/c6953b175c74d4b42b1d8de8f6553a4a/transformed/material-1.3.0/AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] /Users/lemonneko/.gradle/caches/transforms-3/fcecb3db12bc6f4b38a8f7ffb7d3e834/transformed/constraintlayout-2.0.1/AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] /Users/lemonneko/.gradle/caches/transforms-3/fcecb3db12bc6f4b38a8f7ffb7d3e834/transformed/constraintlayout-2.0.1/AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:glide:4.12.0] /Users/lemonneko/.gradle/caches/transforms-3/8c05827fe3b2f7b4be6da5cd436e8eeb/transformed/jetified-glide-4.12.0/AndroidManifest.xml:10:5-20
+MERGED from [com.github.bumptech.glide:glide:4.12.0] /Users/lemonneko/.gradle/caches/transforms-3/8c05827fe3b2f7b4be6da5cd436e8eeb/transformed/jetified-glide-4.12.0/AndroidManifest.xml:10:5-20
+MERGED from [androidx.core:core:1.5.0-beta01] /Users/lemonneko/.gradle/caches/transforms-3/e47c50a49048ba3725ab44c1a916e6b8/transformed/core-1.5.0-beta01/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.5.0-beta01] /Users/lemonneko/.gradle/caches/transforms-3/e47c50a49048ba3725ab44c1a916e6b8/transformed/core-1.5.0-beta01/AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/lemonneko/.gradle/caches/transforms-3/e882a98d82f6212064720b7b61ec998c/transformed/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/lemonneko/.gradle/caches/transforms-3/e882a98d82f6212064720b7b61ec998c/transformed/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
+MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] /Users/lemonneko/.gradle/caches/transforms-3/f4d93f3fb454be58da28d86fec52304b/transformed/jetified-gifdecoder-4.12.0/AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] /Users/lemonneko/.gradle/caches/transforms-3/f4d93f3fb454be58da28d86fec52304b/transformed/jetified-gifdecoder-4.12.0/AndroidManifest.xml:9:5-20
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.5.0-beta01] /Users/lemonneko/.gradle/caches/transforms-3/e47c50a49048ba3725ab44c1a916e6b8/transformed/core-1.5.0-beta01/AndroidManifest.xml:24:18-86
+	android:supportsRtl
+		ADDED from /Users/lemonneko/Projects/MatatakiForAndroid/app/src/main/AndroidManifest.xml:13:9-35
+	android:label
+		ADDED from /Users/lemonneko/Projects/MatatakiForAndroid/app/src/main/AndroidManifest.xml:11:9-41
+	android:roundIcon
+		ADDED from /Users/lemonneko/Projects/MatatakiForAndroid/app/src/main/AndroidManifest.xml:12:9-54
+	android:icon
+		ADDED from /Users/lemonneko/Projects/MatatakiForAndroid/app/src/main/AndroidManifest.xml:10:9-43
+	android:allowBackup
+		ADDED from /Users/lemonneko/Projects/MatatakiForAndroid/app/src/main/AndroidManifest.xml:9:9-35
+	android:theme
+		ADDED from /Users/lemonneko/Projects/MatatakiForAndroid/app/src/main/AndroidManifest.xml:14:9-56
+	android:name
+		ADDED from /Users/lemonneko/Projects/MatatakiForAndroid/app/src/main/AndroidManifest.xml:8:9-33
+activity#moe.lemonneko.mttk.activities.SplashActivity
+ADDED from /Users/lemonneko/Projects/MatatakiForAndroid/app/src/main/AndroidManifest.xml:16:9-23:20
+	android:exported
+		ADDED from /Users/lemonneko/Projects/MatatakiForAndroid/app/src/main/AndroidManifest.xml:18:13-36
+	android:name
+		ADDED from /Users/lemonneko/Projects/MatatakiForAndroid/app/src/main/AndroidManifest.xml:17:13-54
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/lemonneko/Projects/MatatakiForAndroid/app/src/main/AndroidManifest.xml:19:13-22:29
+action#android.intent.action.MAIN
+ADDED from /Users/lemonneko/Projects/MatatakiForAndroid/app/src/main/AndroidManifest.xml:20:17-69
+	android:name
+		ADDED from /Users/lemonneko/Projects/MatatakiForAndroid/app/src/main/AndroidManifest.xml:20:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/lemonneko/Projects/MatatakiForAndroid/app/src/main/AndroidManifest.xml:21:17-77
+	android:name
+		ADDED from /Users/lemonneko/Projects/MatatakiForAndroid/app/src/main/AndroidManifest.xml:21:27-74
+activity#moe.lemonneko.mttk.activities.MainActivity
+ADDED from /Users/lemonneko/Projects/MatatakiForAndroid/app/src/main/AndroidManifest.xml:24:9-61
+	android:name
+		ADDED from /Users/lemonneko/Projects/MatatakiForAndroid/app/src/main/AndroidManifest.xml:24:19-58
+uses-sdk
+INJECTED from /Users/lemonneko/Projects/MatatakiForAndroid/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/lemonneko/Projects/MatatakiForAndroid/app/src/main/AndroidManifest.xml
+INJECTED from /Users/lemonneko/Projects/MatatakiForAndroid/app/src/main/AndroidManifest.xml
+MERGED from [com.google.accompanist:accompanist-glide:0.8.1] /Users/lemonneko/.gradle/caches/transforms-3/3d9e80a60b69f42d79ff9bd4b5878f9c/transformed/jetified-accompanist-glide-0.8.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.accompanist:accompanist-glide:0.8.1] /Users/lemonneko/.gradle/caches/transforms-3/3d9e80a60b69f42d79ff9bd4b5878f9c/transformed/jetified-accompanist-glide-0.8.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.accompanist:accompanist-swiperefresh:0.8.1] /Users/lemonneko/.gradle/caches/transforms-3/2265ae367859284e49297f5e3e4660be/transformed/jetified-accompanist-swiperefresh-0.8.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.accompanist:accompanist-swiperefresh:0.8.1] /Users/lemonneko/.gradle/caches/transforms-3/2265ae367859284e49297f5e3e4660be/transformed/jetified-accompanist-swiperefresh-0.8.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-tooling:1.0.0-beta05] /Users/lemonneko/.gradle/caches/transforms-3/d6aded33bd6f9e582528d35c1336d8df/transformed/jetified-ui-tooling-1.0.0-beta05/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.ui:ui-tooling:1.0.0-beta05] /Users/lemonneko/.gradle/caches/transforms-3/d6aded33bd6f9e582528d35c1336d8df/transformed/jetified-ui-tooling-1.0.0-beta05/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity-compose:1.3.0-alpha04] /Users/lemonneko/.gradle/caches/transforms-3/f436236b8bdec6a9abba2298b0b1b2b2/transformed/jetified-activity-compose-1.3.0-alpha04/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity-compose:1.3.0-alpha04] /Users/lemonneko/.gradle/caches/transforms-3/f436236b8bdec6a9abba2298b0b1b2b2/transformed/jetified-activity-compose-1.3.0-alpha04/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity-ktx:1.3.0-alpha04] /Users/lemonneko/.gradle/caches/transforms-3/d3bee7e02f50a4d19d1573e48f0a6660/transformed/jetified-activity-ktx-1.3.0-alpha04/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity-ktx:1.3.0-alpha04] /Users/lemonneko/.gradle/caches/transforms-3/d3bee7e02f50a4d19d1573e48f0a6660/transformed/jetified-activity-ktx-1.3.0-alpha04/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core-ktx:1.3.2] /Users/lemonneko/.gradle/caches/transforms-3/d1c8e129d91736996c18280ee169b3bc/transformed/jetified-core-ktx-1.3.2/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.core:core-ktx:1.3.2] /Users/lemonneko/.gradle/caches/transforms-3/d1c8e129d91736996c18280ee169b3bc/transformed/jetified-core-ktx-1.3.2/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.accompanist:accompanist-pager-indicators:0.8.1] /Users/lemonneko/.gradle/caches/transforms-3/ebe35fe65f7665dd4078d4bb40654afd/transformed/jetified-accompanist-pager-indicators-0.8.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.accompanist:accompanist-pager-indicators:0.8.1] /Users/lemonneko/.gradle/caches/transforms-3/ebe35fe65f7665dd4078d4bb40654afd/transformed/jetified-accompanist-pager-indicators-0.8.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.material:material:1.0.0-beta05] /Users/lemonneko/.gradle/caches/transforms-3/cd38f4ace3906bcbe25cb661095cbfdc/transformed/jetified-material-1.0.0-beta05/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.material:material:1.0.0-beta05] /Users/lemonneko/.gradle/caches/transforms-3/cd38f4ace3906bcbe25cb661095cbfdc/transformed/jetified-material-1.0.0-beta05/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.accompanist:accompanist-pager:0.8.1] /Users/lemonneko/.gradle/caches/transforms-3/71898aa89ec495e3f09996f55ffc077c/transformed/jetified-accompanist-pager-0.8.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.accompanist:accompanist-pager:0.8.1] /Users/lemonneko/.gradle/caches/transforms-3/71898aa89ec495e3f09996f55ffc077c/transformed/jetified-accompanist-pager-0.8.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.material:material-ripple:1.0.0-beta05] /Users/lemonneko/.gradle/caches/transforms-3/8fa9f4ecd097f9ef61719ef67663e433/transformed/jetified-material-ripple-1.0.0-beta05/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.material:material-ripple:1.0.0-beta05] /Users/lemonneko/.gradle/caches/transforms-3/8fa9f4ecd097f9ef61719ef67663e433/transformed/jetified-material-ripple-1.0.0-beta05/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.accompanist:accompanist-imageloading-core:0.8.1] /Users/lemonneko/.gradle/caches/transforms-3/d8424bf6363317c2ee78ad673026ef43/transformed/jetified-accompanist-imageloading-core-0.8.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.accompanist:accompanist-imageloading-core:0.8.1] /Users/lemonneko/.gradle/caches/transforms-3/d8424bf6363317c2ee78ad673026ef43/transformed/jetified-accompanist-imageloading-core-0.8.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.foundation:foundation:1.0.0-beta05] /Users/lemonneko/.gradle/caches/transforms-3/24001c7a4d704b78d19d7098f06b2b91/transformed/jetified-foundation-1.0.0-beta05/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.foundation:foundation:1.0.0-beta05] /Users/lemonneko/.gradle/caches/transforms-3/24001c7a4d704b78d19d7098f06b2b91/transformed/jetified-foundation-1.0.0-beta05/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.material:material-icons-extended:1.0.0-beta01] /Users/lemonneko/.gradle/caches/transforms-3/c68aaffc767e22f0bbddc1924e2461ab/transformed/jetified-material-icons-extended-1.0.0-beta01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.material:material-icons-extended:1.0.0-beta01] /Users/lemonneko/.gradle/caches/transforms-3/c68aaffc767e22f0bbddc1924e2461ab/transformed/jetified-material-icons-extended-1.0.0-beta01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.material:material-icons-core:1.0.0-beta05] /Users/lemonneko/.gradle/caches/transforms-3/d407303cdb17d77601071193721fbfa5/transformed/jetified-material-icons-core-1.0.0-beta05/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.material:material-icons-core:1.0.0-beta05] /Users/lemonneko/.gradle/caches/transforms-3/d407303cdb17d77601071193721fbfa5/transformed/jetified-material-icons-core-1.0.0-beta05/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-compose:1.0.0-alpha02] /Users/lemonneko/.gradle/caches/transforms-3/1418b5b708b6af20b2602642473bbbf6/transformed/jetified-lifecycle-viewmodel-compose-1.0.0-alpha02/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-compose:1.0.0-alpha02] /Users/lemonneko/.gradle/caches/transforms-3/1418b5b708b6af20b2602642473bbbf6/transformed/jetified-lifecycle-viewmodel-compose-1.0.0-alpha02/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.ui:ui-tooling-data:1.0.0-beta05] /Users/lemonneko/.gradle/caches/transforms-3/dd59051afa943070fe6d926bfba68e3c/transformed/jetified-ui-tooling-data-1.0.0-beta05/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.ui:ui-tooling-data:1.0.0-beta05] /Users/lemonneko/.gradle/caches/transforms-3/dd59051afa943070fe6d926bfba68e3c/transformed/jetified-ui-tooling-data-1.0.0-beta05/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.animation:animation:1.0.0-beta05] /Users/lemonneko/.gradle/caches/transforms-3/3572b53d4d048a05db85606c26574798/transformed/jetified-animation-1.0.0-beta05/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.animation:animation:1.0.0-beta05] /Users/lemonneko/.gradle/caches/transforms-3/3572b53d4d048a05db85606c26574798/transformed/jetified-animation-1.0.0-beta05/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.foundation:foundation-layout:1.0.0-beta05] /Users/lemonneko/.gradle/caches/transforms-3/d69d12303943b77f4f640c7cb96d4a1e/transformed/jetified-foundation-layout-1.0.0-beta05/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.foundation:foundation-layout:1.0.0-beta05] /Users/lemonneko/.gradle/caches/transforms-3/d69d12303943b77f4f640c7cb96d4a1e/transformed/jetified-foundation-layout-1.0.0-beta05/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.ui:ui:1.0.0-beta05] /Users/lemonneko/.gradle/caches/transforms-3/eac1fde5e80e4ea5d5bb3b96e05f36d3/transformed/jetified-ui-1.0.0-beta05/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.ui:ui:1.0.0-beta05] /Users/lemonneko/.gradle/caches/transforms-3/eac1fde5e80e4ea5d5bb3b96e05f36d3/transformed/jetified-ui-1.0.0-beta05/AndroidManifest.xml:20:5-22:41
+MERGED from [com.gyf.immersionbar:immersionbar-ktx:3.0.0] /Users/lemonneko/.gradle/caches/transforms-3/ff79929c7b09714a7828dfb054bc74e8/transformed/jetified-immersionbar-ktx-3.0.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.gyf.immersionbar:immersionbar-ktx:3.0.0] /Users/lemonneko/.gradle/caches/transforms-3/ff79929c7b09714a7828dfb054bc74e8/transformed/jetified-immersionbar-ktx-3.0.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.compose.animation:animation-core:1.0.0-beta05] /Users/lemonneko/.gradle/caches/transforms-3/dcac8af166508cbb8f9cc59a5d9b643f/transformed/jetified-animation-core-1.0.0-beta05/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.animation:animation-core:1.0.0-beta05] /Users/lemonneko/.gradle/caches/transforms-3/dcac8af166508cbb8f9cc59a5d9b643f/transformed/jetified-animation-core-1.0.0-beta05/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.ui:ui-text:1.0.0-beta05] /Users/lemonneko/.gradle/caches/transforms-3/7b74b824e37faf8494f7eaacf05ae89a/transformed/jetified-ui-text-1.0.0-beta05/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.ui:ui-text:1.0.0-beta05] /Users/lemonneko/.gradle/caches/transforms-3/7b74b824e37faf8494f7eaacf05ae89a/transformed/jetified-ui-text-1.0.0-beta05/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.runtime:runtime-saveable:1.0.0-beta05] /Users/lemonneko/.gradle/caches/transforms-3/75381a2be2c78d41c3b86dd142456bff/transformed/jetified-runtime-saveable-1.0.0-beta05/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.runtime:runtime-saveable:1.0.0-beta05] /Users/lemonneko/.gradle/caches/transforms-3/75381a2be2c78d41c3b86dd142456bff/transformed/jetified-runtime-saveable-1.0.0-beta05/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.ui:ui-graphics:1.0.0-beta05] /Users/lemonneko/.gradle/caches/transforms-3/7779b8de660c8e159de9f5c0ef04fbd2/transformed/jetified-ui-graphics-1.0.0-beta05/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.ui:ui-graphics:1.0.0-beta05] /Users/lemonneko/.gradle/caches/transforms-3/7779b8de660c8e159de9f5c0ef04fbd2/transformed/jetified-ui-graphics-1.0.0-beta05/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.ui:ui-unit:1.0.0-beta05] /Users/lemonneko/.gradle/caches/transforms-3/39c9ac29dffe4cb7b2a5221910fade87/transformed/jetified-ui-unit-1.0.0-beta05/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.ui:ui-unit:1.0.0-beta05] /Users/lemonneko/.gradle/caches/transforms-3/39c9ac29dffe4cb7b2a5221910fade87/transformed/jetified-ui-unit-1.0.0-beta05/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.ui:ui-geometry:1.0.0-beta05] /Users/lemonneko/.gradle/caches/transforms-3/640290354e1ea88385d81701a7c20b23/transformed/jetified-ui-geometry-1.0.0-beta05/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.ui:ui-geometry:1.0.0-beta05] /Users/lemonneko/.gradle/caches/transforms-3/640290354e1ea88385d81701a7c20b23/transformed/jetified-ui-geometry-1.0.0-beta05/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.runtime:runtime:1.0.0-beta05] /Users/lemonneko/.gradle/caches/transforms-3/c92f88ebb22677596ab3d655a46082ac/transformed/jetified-runtime-1.0.0-beta05/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.runtime:runtime:1.0.0-beta05] /Users/lemonneko/.gradle/caches/transforms-3/c92f88ebb22677596ab3d655a46082ac/transformed/jetified-runtime-1.0.0-beta05/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.ui:ui-util:1.0.0-beta05] /Users/lemonneko/.gradle/caches/transforms-3/dc97744136ee5b2c795137fc9c4eaa05/transformed/jetified-ui-util-1.0.0-beta05/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.ui:ui-util:1.0.0-beta05] /Users/lemonneko/.gradle/caches/transforms-3/dc97744136ee5b2c795137fc9c4eaa05/transformed/jetified-ui-util-1.0.0-beta05/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.3.0] /Users/lemonneko/.gradle/caches/transforms-3/404d05863856cc9e38ec85dbfce59152/transformed/jetified-lifecycle-viewmodel-ktx-2.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.3.0] /Users/lemonneko/.gradle/caches/transforms-3/404d05863856cc9e38ec85dbfce59152/transformed/jetified-lifecycle-viewmodel-ktx-2.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.3.0] /Users/lemonneko/.gradle/caches/transforms-3/53d36dbd1452d92053e99489361f6277/transformed/jetified-lifecycle-runtime-ktx-2.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.3.0] /Users/lemonneko/.gradle/caches/transforms-3/53d36dbd1452d92053e99489361f6277/transformed/jetified-lifecycle-runtime-ktx-2.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate-ktx:1.1.0] /Users/lemonneko/.gradle/caches/transforms-3/83f63fa3da953c76b7eca217bada5b86/transformed/jetified-savedstate-ktx-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate-ktx:1.1.0] /Users/lemonneko/.gradle/caches/transforms-3/83f63fa3da953c76b7eca217bada5b86/transformed/jetified-savedstate-ktx-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.material:material:1.3.0] /Users/lemonneko/.gradle/caches/transforms-3/c6953b175c74d4b42b1d8de8f6553a4a/transformed/material-1.3.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.3.0] /Users/lemonneko/.gradle/caches/transforms-3/c6953b175c74d4b42b1d8de8f6553a4a/transformed/material-1.3.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] /Users/lemonneko/.gradle/caches/transforms-3/fcecb3db12bc6f4b38a8f7ffb7d3e834/transformed/constraintlayout-2.0.1/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] /Users/lemonneko/.gradle/caches/transforms-3/fcecb3db12bc6f4b38a8f7ffb7d3e834/transformed/constraintlayout-2.0.1/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.appcompat:appcompat:1.2.0] /Users/lemonneko/.gradle/caches/transforms-3/a3ee1937757cac39fce77498fc54b949/transformed/appcompat-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.2.0] /Users/lemonneko/.gradle/caches/transforms-3/a3ee1937757cac39fce77498fc54b949/transformed/appcompat-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.gyf.immersionbar:immersionbar:3.0.0] /Users/lemonneko/.gradle/caches/transforms-3/8a7c92717798d47934e960c99b897e3d/transformed/jetified-immersionbar-3.0.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.gyf.immersionbar:immersionbar:3.0.0] /Users/lemonneko/.gradle/caches/transforms-3/8a7c92717798d47934e960c99b897e3d/transformed/jetified-immersionbar-3.0.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/lemonneko/.gradle/caches/transforms-3/721ad291afc633376c619f195b6063cb/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/lemonneko/.gradle/caches/transforms-3/721ad291afc633376c619f195b6063cb/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/lemonneko/.gradle/caches/transforms-3/4897ef677a51cefb94c086bd977e60d3/transformed/jetified-viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/lemonneko/.gradle/caches/transforms-3/4897ef677a51cefb94c086bd977e60d3/transformed/jetified-viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.github.bumptech.glide:glide:4.12.0] /Users/lemonneko/.gradle/caches/transforms-3/8c05827fe3b2f7b4be6da5cd436e8eeb/transformed/jetified-glide-4.12.0/AndroidManifest.xml:6:5-8:41
+MERGED from [com.github.bumptech.glide:glide:4.12.0] /Users/lemonneko/.gradle/caches/transforms-3/8c05827fe3b2f7b4be6da5cd436e8eeb/transformed/jetified-glide-4.12.0/AndroidManifest.xml:6:5-8:41
+MERGED from [androidx.fragment:fragment:1.1.0] /Users/lemonneko/.gradle/caches/transforms-3/1d8699fda837735fc90be439bfb22e41/transformed/fragment-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.1.0] /Users/lemonneko/.gradle/caches/transforms-3/1d8699fda837735fc90be439bfb22e41/transformed/fragment-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] /Users/lemonneko/.gradle/caches/transforms-3/51db42ecb5496f0ac1d7c2c050362edd/transformed/jetified-appcompat-resources-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] /Users/lemonneko/.gradle/caches/transforms-3/51db42ecb5496f0ac1d7c2c050362edd/transformed/jetified-appcompat-resources-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/lemonneko/.gradle/caches/transforms-3/2f782466294e80cc63c9f954f85cae52/transformed/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/lemonneko/.gradle/caches/transforms-3/2f782466294e80cc63c9f954f85cae52/transformed/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/lemonneko/.gradle/caches/transforms-3/f53d61034bd942107ae6b208373c08f4/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/lemonneko/.gradle/caches/transforms-3/f53d61034bd942107ae6b208373c08f4/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/lemonneko/.gradle/caches/transforms-3/079b3b2b8a522056dcc512499141ea09/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/lemonneko/.gradle/caches/transforms-3/079b3b2b8a522056dcc512499141ea09/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] /Users/lemonneko/.gradle/caches/transforms-3/fa6a07ec6d44f73877b7db3ad05e8421/transformed/transition-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] /Users/lemonneko/.gradle/caches/transforms-3/fa6a07ec6d44f73877b7db3ad05e8421/transformed/transition-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/lemonneko/.gradle/caches/transforms-3/caf36994155514c27362edc3964166ae/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/lemonneko/.gradle/caches/transforms-3/caf36994155514c27362edc3964166ae/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/lemonneko/.gradle/caches/transforms-3/201b3992e9655da44c15d97976b5637e/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/lemonneko/.gradle/caches/transforms-3/201b3992e9655da44c15d97976b5637e/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/lemonneko/.gradle/caches/transforms-3/bf192d3da74aa4ef2ed59f636c6e9453/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/lemonneko/.gradle/caches/transforms-3/bf192d3da74aa4ef2ed59f636c6e9453/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.autofill:autofill:1.0.0] /Users/lemonneko/.gradle/caches/transforms-3/1f7cd799ab1d647d21ace886ad522547/transformed/jetified-autofill-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.autofill:autofill:1.0.0] /Users/lemonneko/.gradle/caches/transforms-3/1f7cd799ab1d647d21ace886ad522547/transformed/jetified-autofill-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/lemonneko/.gradle/caches/transforms-3/e699c36b766fe9b7b6ed477141e37bf3/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/lemonneko/.gradle/caches/transforms-3/e699c36b766fe9b7b6ed477141e37bf3/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/lemonneko/.gradle/caches/transforms-3/56153fc1864f89bc1f894c8d8a3378bb/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/lemonneko/.gradle/caches/transforms-3/56153fc1864f89bc1f894c8d8a3378bb/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/lemonneko/.gradle/caches/transforms-3/fe09c73baf010cd1e1b774a070254088/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/lemonneko/.gradle/caches/transforms-3/fe09c73baf010cd1e1b774a070254088/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/lemonneko/.gradle/caches/transforms-3/b123edb33916021106dbbf550351264c/transformed/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/lemonneko/.gradle/caches/transforms-3/b123edb33916021106dbbf550351264c/transformed/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.0.0] /Users/lemonneko/.gradle/caches/transforms-3/26d067f76b4f19523436515fc7e710e8/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/lemonneko/.gradle/caches/transforms-3/26d067f76b4f19523436515fc7e710e8/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.3.0-alpha04] /Users/lemonneko/.gradle/caches/transforms-3/cd233db4584cf584f9d9551b3eec9b16/transformed/jetified-activity-1.3.0-alpha04/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.3.0-alpha04] /Users/lemonneko/.gradle/caches/transforms-3/cd233db4584cf584f9d9551b3eec9b16/transformed/jetified-activity-1.3.0-alpha04/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.5.0-beta01] /Users/lemonneko/.gradle/caches/transforms-3/e47c50a49048ba3725ab44c1a916e6b8/transformed/core-1.5.0-beta01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.5.0-beta01] /Users/lemonneko/.gradle/caches/transforms-3/e47c50a49048ba3725ab44c1a916e6b8/transformed/core-1.5.0-beta01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.0] /Users/lemonneko/.gradle/caches/transforms-3/1f9202104a54ca993f8b98fff70144a6/transformed/lifecycle-runtime-2.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.0] /Users/lemonneko/.gradle/caches/transforms-3/1f9202104a54ca993f8b98fff70144a6/transformed/lifecycle-runtime-2.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.0] /Users/lemonneko/.gradle/caches/transforms-3/e164a01b06f70854b0ee9d596d771f45/transformed/jetified-lifecycle-viewmodel-savedstate-2.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.0] /Users/lemonneko/.gradle/caches/transforms-3/e164a01b06f70854b0ee9d596d771f45/transformed/jetified-lifecycle-viewmodel-savedstate-2.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.1.0] /Users/lemonneko/.gradle/caches/transforms-3/b81549442fa26ff24250bb247f6e4410/transformed/jetified-savedstate-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.1.0] /Users/lemonneko/.gradle/caches/transforms-3/b81549442fa26ff24250bb247f6e4410/transformed/jetified-savedstate-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.0] /Users/lemonneko/.gradle/caches/transforms-3/629fc5a1842adb693fb01205145f3324/transformed/lifecycle-viewmodel-2.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.0] /Users/lemonneko/.gradle/caches/transforms-3/629fc5a1842adb693fb01205145f3324/transformed/lifecycle-viewmodel-2.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/lemonneko/.gradle/caches/transforms-3/e882a98d82f6212064720b7b61ec998c/transformed/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/lemonneko/.gradle/caches/transforms-3/e882a98d82f6212064720b7b61ec998c/transformed/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/lemonneko/.gradle/caches/transforms-3/d4790ae0dff2858f5d5155016cdd7101/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/lemonneko/.gradle/caches/transforms-3/d4790ae0dff2858f5d5155016cdd7101/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.0] /Users/lemonneko/.gradle/caches/transforms-3/07dcbacca352b9dc242dc1eb118a2947/transformed/lifecycle-livedata-core-2.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.0] /Users/lemonneko/.gradle/caches/transforms-3/07dcbacca352b9dc242dc1eb118a2947/transformed/lifecycle-livedata-core-2.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/lemonneko/.gradle/caches/transforms-3/e3e703cb95ca370043f8efabed669551/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/lemonneko/.gradle/caches/transforms-3/e3e703cb95ca370043f8efabed669551/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] /Users/lemonneko/.gradle/caches/transforms-3/f4d93f3fb454be58da28d86fec52304b/transformed/jetified-gifdecoder-4.12.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] /Users/lemonneko/.gradle/caches/transforms-3/f4d93f3fb454be58da28d86fec52304b/transformed/jetified-gifdecoder-4.12.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.exifinterface:exifinterface:1.2.0] /Users/lemonneko/.gradle/caches/transforms-3/8c0e89179c4b1c678e30531efc4f8236/transformed/exifinterface-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.exifinterface:exifinterface:1.2.0] /Users/lemonneko/.gradle/caches/transforms-3/8c0e89179c4b1c678e30531efc4f8236/transformed/exifinterface-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/lemonneko/.gradle/caches/transforms-3/3115ee56a65c9ec7e60c98ab811dde3a/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/lemonneko/.gradle/caches/transforms-3/3115ee56a65c9ec7e60c98ab811dde3a/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/lemonneko/.gradle/caches/transforms-3/5c8b01cc04195a48999902da75e6bc45/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/lemonneko/.gradle/caches/transforms-3/5c8b01cc04195a48999902da75e6bc45/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/lemonneko/.gradle/caches/transforms-3/8b13205f5de1f513ea9ffea0c82248ca/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/lemonneko/.gradle/caches/transforms-3/8b13205f5de1f513ea9ffea0c82248ca/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/lemonneko/.gradle/caches/transforms-3/56f11c1bf1537d915fffbc2a01f30953/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/lemonneko/.gradle/caches/transforms-3/56f11c1bf1537d915fffbc2a01f30953/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/lemonneko/.gradle/caches/transforms-3/a8d695cd534dda325e7c083598997ff3/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/lemonneko/.gradle/caches/transforms-3/a8d695cd534dda325e7c083598997ff3/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] /Users/lemonneko/.gradle/caches/transforms-3/db3dfd5cb4fab62bd4c46295aa3cc8bd/transformed/jetified-annotation-experimental-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] /Users/lemonneko/.gradle/caches/transforms-3/db3dfd5cb4fab62bd4c46295aa3cc8bd/transformed/jetified-annotation-experimental-1.0.0/AndroidManifest.xml:20:5-22:41
+INJECTED from /Users/lemonneko/Projects/MatatakiForAndroid/app/src/main/AndroidManifest.xml
+INJECTED from /Users/lemonneko/Projects/MatatakiForAndroid/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/lemonneko/Projects/MatatakiForAndroid/app/src/main/AndroidManifest.xml
+		ADDED from /Users/lemonneko/Projects/MatatakiForAndroid/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/lemonneko/Projects/MatatakiForAndroid/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/lemonneko/Projects/MatatakiForAndroid/app/src/main/AndroidManifest.xml
+		ADDED from /Users/lemonneko/Projects/MatatakiForAndroid/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/lemonneko/Projects/MatatakiForAndroid/app/src/main/AndroidManifest.xml
+activity#androidx.compose.ui.tooling.preview.PreviewActivity
+ADDED from [androidx.compose.ui:ui-tooling:1.0.0-beta05] /Users/lemonneko/.gradle/caches/transforms-3/d6aded33bd6f9e582528d35c1336d8df/transformed/jetified-ui-tooling-1.0.0-beta05/AndroidManifest.xml:25:9-27:39
+	android:exported
+		ADDED from [androidx.compose.ui:ui-tooling:1.0.0-beta05] /Users/lemonneko/.gradle/caches/transforms-3/d6aded33bd6f9e582528d35c1336d8df/transformed/jetified-ui-tooling-1.0.0-beta05/AndroidManifest.xml:27:13-36
+	android:name
+		ADDED from [androidx.compose.ui:ui-tooling:1.0.0-beta05] /Users/lemonneko/.gradle/caches/transforms-3/d6aded33bd6f9e582528d35c1336d8df/transformed/jetified-ui-tooling-1.0.0-beta05/AndroidManifest.xml:26:13-79

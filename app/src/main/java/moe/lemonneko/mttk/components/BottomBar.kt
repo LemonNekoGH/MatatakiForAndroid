@@ -51,13 +51,13 @@ fun BottomBar(
         backgroundColor = ViewModel.theme.surface,
         contentColor = ViewModel.theme.primary
     ) {
-        for (index in icons.indices) {
+        icons.forEachIndexed { index, imageVector ->
             BottomNavigationItem(
                 selected = viewModel.selected == index,
                 onClick = {
                     viewModel.selected = index
                 },
-                icon = icons[index],
+                icon = imageVector,
                 label = labels[index]
             )
         }

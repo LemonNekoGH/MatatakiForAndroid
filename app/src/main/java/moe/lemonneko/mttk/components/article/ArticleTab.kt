@@ -5,10 +5,7 @@ import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.width
-import androidx.compose.material.Divider
-import androidx.compose.material.Tab
-import androidx.compose.material.TabRow
-import androidx.compose.material.Text
+import androidx.compose.material.*
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
@@ -43,7 +40,9 @@ fun ArticleTab(
         ViewModel.locale.hottest,
         ViewModel.locale.latest
     )
-    Column {
+    Surface(
+        elevation = 4.dp
+    ) {
         TabRow(
             selectedTabIndex = pagerState.currentPage,
             modifier = Modifier.height(48.dp),
@@ -68,6 +67,5 @@ fun ArticleTab(
                 )
             }
         }
-        Divider()
     }
 }

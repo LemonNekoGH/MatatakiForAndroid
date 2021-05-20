@@ -1,5 +1,6 @@
 package moe.lemonneko.mttk.components.article
 
+import androidx.compose.animation.ExperimentalAnimationApi
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.lazy.LazyColumn
@@ -18,6 +19,7 @@ import com.google.accompanist.swiperefresh.SwipeRefreshState
 import moe.lemonneko.mttk.data.ViewModel
 import moe.lemonneko.mttk.utils.*
 
+@ExperimentalAnimationApi
 @ExperimentalPagerApi
 @Composable
 fun ArticleList(
